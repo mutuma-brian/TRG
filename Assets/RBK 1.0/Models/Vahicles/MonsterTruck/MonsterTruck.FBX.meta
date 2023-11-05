@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: a8b540b6adb58124d9d6b1bfa34ca9ad
+timeCreated: 1462756553
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BL
+    100002: Body
+    100004: BR
+    100006: FL
+    100008: FR
+    100010: //RootNode
+    100012: Dummy001
+    100014: Dummy002
+    100016: Dummy003
+    100018: Dummy004
+    100020: Dummy005
+    100022: Dummy006
+    100024: Dummy007
+    100026: Dummy008
+    100028: Dummy009
+    100030: Dummy010
+    100032: Dummy011
+    100034: AxleBackCenter
+    100036: AxleDownBL
+    100038: AxleDownBR
+    100040: AxleDownFL
+    100042: AxleDownFR
+    100044: AxleFrontCenter
+    100046: AxleTopBL
+    100048: AxleTopBR
+    100050: AxleTopFL
+    100052: AxleTopFR
+    100054: Root
+    100056: Steer
+    400000: BL
+    400002: Body
+    400004: BR
+    400006: FL
+    400008: FR
+    400010: //RootNode
+    400012: Dummy001
+    400014: Dummy002
+    400016: Dummy003
+    400018: Dummy004
+    400020: Dummy005
+    400022: Dummy006
+    400024: Dummy007
+    400026: Dummy008
+    400028: Dummy009
+    400030: Dummy010
+    400032: Dummy011
+    400034: AxleBackCenter
+    400036: AxleDownBL
+    400038: AxleDownBR
+    400040: AxleDownFL
+    400042: AxleDownFR
+    400044: AxleFrontCenter
+    400046: AxleTopBL
+    400048: AxleTopBR
+    400050: AxleTopFL
+    400052: AxleTopFR
+    400054: Root
+    400056: Steer
+    2300000: BL
+    2300002: Body
+    2300004: BR
+    2300006: FL
+    2300008: FR
+    3300000: BL
+    3300002: Body
+    3300004: BR
+    3300006: FL
+    3300008: FR
+    4300000: Body
+    4300002: FR
+    4300004: BR
+    4300006: BL
+    4300008: FL
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.05
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
