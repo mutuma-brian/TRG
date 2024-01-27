@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using TMPro;
 
 public enum ControlMode { simple = 1, touch = 2 }
 
@@ -13,6 +14,12 @@ public class BuggyControl : MonoBehaviour
     public ControlMode controlMode = ControlMode.simple;
 
     public bool activeControl = false;
+
+    public TMP_Text scoreTextMeshPro;
+
+    public string collisionTag = "RoadCollider";
+
+    public int score = 100;
 
 
     // Wheels Setting /////////////////////////////////
@@ -415,9 +422,14 @@ public class BuggyControl : MonoBehaviour
 
             myRigidbody.angularVelocity = new Vector3(-myRigidbody.angularVelocity.x * 0.5f, myRigidbody.angularVelocity.y * 0.5f, -myRigidbody.angularVelocity.z * 0.5f);
             myRigidbody.velocity = new Vector3(myRigidbody.velocity.x, myRigidbody.velocity.y * 0.5f, myRigidbody.velocity.z);
-
-
         }
+
+       if (collision.gameObject.CompareTag(collisionTag))
+        {
+            score = score - 5;
+            scoreTextMeshPro.text = "Score : " + score.ToString();
+        }
+
 
     }
 
